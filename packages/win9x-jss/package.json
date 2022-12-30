@@ -45,5 +45,8 @@
     "microbundle": "0.15.1",
     "typescript-eslint-language-service": "^5.0.0"
   },
-  "gitHead": "20ca8a2b1f67d74c52b1698568d90ed85e871bf4"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "bd7ee40d107751d9c20ba9c0236895eb29878161"
 }
