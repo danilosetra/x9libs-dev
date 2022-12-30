@@ -20,7 +20,7 @@
     "start": "webpack serve --config webpack.dev.js --node-env development",
     "start:build": "npm run build && cd ./dist && npx serve",
     "build": "npm run lint && webpack --config webpack.prod.js --node-env production",
-    "publish": "npm run build && npm version patch"
+    "build:publish": "npm run build && npm version patch"
   },
   "dependencies": {
     "clsx": "^1.2.1",
@@ -65,5 +65,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "bd7ee40d107751d9c20ba9c0236895eb29878161"
+  "gitHead": "df61bfc9f18a20b272c6523cc43928ae913aed84"
 }
