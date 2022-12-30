@@ -44,5 +44,6 @@
   "devDependencies": {
     "microbundle": "0.15.1",
     "typescript-eslint-language-service": "^5.0.0"
-  }
+  },
+  "gitHead": "13dbe87f107f8ebf7b4001dc4278ca25a11033f2"
 }
