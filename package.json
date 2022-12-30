@@ -1,12 +1,11 @@
 {
   "name": "x9libs-dev",
-  "version": "0.0.7",
   "private": false,
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^6.3.0"
+    "lerna": "^6.1.0"
   },
   "publishConfig": {
     "access": "public"

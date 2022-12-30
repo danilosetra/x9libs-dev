@@ -22,7 +22,7 @@ const App: React.FC = () => {
   const classes = useStyles();
   return (
     <>
-      <h1>x9libs</h1>
+      <h1>x9libs-dev</h1>
       <h2>react-ui-components; mode: {process.env.NODE_ENV}</h2>
       <button className={classes.myButton}>
         <span className={classes.myLabel}>click me</span>
