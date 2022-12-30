@@ -1,10 +1,10 @@
 {
-  "name": "win9x-ui-react",
+  "name": "@x9libs-dev/win9x-ui-react",
   "license": "MIT",
   "author": {
     "name": "Danilo Setra"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "homepage": "https://github.com/danilosetra/x9libs-dev#readme",
   "repository": {
