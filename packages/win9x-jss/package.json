@@ -1,7 +1,7 @@
 {
   "name": "@x9libs-dev/win9x-jss",
   "private": false,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "author": "danilosetra",
   "homepage": "https://github.com/danilosetra/x9libs-dev#readme",
@@ -45,5 +45,5 @@
     "microbundle": "0.15.1",
     "typescript-eslint-language-service": "^5.0.0"
   },
-  "gitHead": "13dbe87f107f8ebf7b4001dc4278ca25a11033f2"
+  "gitHead": "20ca8a2b1f67d74c52b1698568d90ed85e871bf4"
 }
