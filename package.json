@@ -1,6 +1,6 @@
 {
   "name": "x9libs-dev",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "workspaces": [
     "packages/*"
