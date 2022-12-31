@@ -1,0 +1,24 @@
+# files (DEFAULT)
+**/.babelrc
+**/.DS_Store
+**/.env
+**/.env.*
+**/.eslintrc
+**/.history
+**/.npmrc
+**/.prettierrc
+**/jsconfig.json
+**/lerna-debug*
+**/tsconfig.json
+**/webpack.*
+**/yarn-error*
+
+# folders (DEFAULT)
+**/node_modules/
+**/src/
+
+# #################################
+
+# files (LOCAL)
+
+# folders (LOCAL)

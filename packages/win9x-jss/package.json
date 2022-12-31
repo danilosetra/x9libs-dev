@@ -1,41 +1,47 @@
 {
   "name": "@x9libs-dev/win9x-jss",
-  "private": false,
   "version": "0.1.4",
   "description": "",
-  "author": "danilosetra",
-  "homepage": "https://github.com/danilosetra/x9libs-dev#readme",
+  "keywords": [],
+  "author": {
+    "name": "Danilo Setra",
+    "url": "https://github.com/danilosetra/"
+  },
+  "homepage": "https://github.com/danilosetra/x9libs-dev/packages/win9x-jss#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danilosetra/x9libs-dev.git"
+    "url": "git+https://github.com/danilosetra/x9libs-dev.git",
+    "directory": "packages/win9x-jss"
   },
   "bugs": {
     "url": "https://github.com/danilosetra/x9libs-dev/issues"
   },
-  "keywords": [],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
-  "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "module": "./dist/index.m.js",
   "unpkg": "./dist/index.umd.js",
   "source": "./src/index.ts",
   "files": [
-    "./dist"
+    "./dist/"
   ],
-  "directories": {
-    "dist": "./dist",
-    "src": "./src/**"
-  },
   "exports": {
     "types": {
       "default": "./dist/index.d.ts"
     },
     "require": "./dist/index.js",
-    "default": "./dist/index.modern.js"
+    "node": "./dist/index.js",
+    "default": "./dist/index.modern.js",
+    "import": "./dist/index.modern.js"
   },
   "scripts": {
     "build": "rm -rf ./dist && microbundle --tsconfig ./tsconfig.json --no-sourcemap",
-    "dev": "microbundle --watch --tsconfig ./tsconfig.json --no-sourcemap"
+    "dev": "microbundle --watch --tsconfig ./tsconfig.json --no-sourcemap",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "csstype": "^3.1.1",
@@ -44,9 +50,6 @@
   "devDependencies": {
     "microbundle": "0.15.1",
     "typescript-eslint-language-service": "^5.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "gitHead": "df61bfc9f18a20b272c6523cc43928ae913aed84"
 }
