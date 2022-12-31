@@ -1,6 +1,6 @@
 {
   "name": "@x9libs-dev/win9x-ui-react",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "keywords": [],
   "author": {
@@ -33,7 +33,7 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "@x9libs-dev/win9x-jss": "^0.1.5",
+    "@x9libs-dev/win9x-jss": "^0.1.6",
     "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -73,5 +73,5 @@
     "webpack-dev-server": "^4.11.1",
     "webpack-merge": "^5.8.0"
   },
-  "gitHead": "df61bfc9f18a20b272c6523cc43928ae913aed84"
+  "gitHead": "019b9220e8b930a0f42edffccc518c94c9691c7a"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@x9libs-dev/win9x-jss",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "keywords": [],
   "author": {
@@ -51,5 +51,5 @@
     "microbundle": "0.15.1",
     "typescript-eslint-language-service": "^5.0.0"
   },
-  "gitHead": "df61bfc9f18a20b272c6523cc43928ae913aed84"
+  "gitHead": "019b9220e8b930a0f42edffccc518c94c9691c7a"
 }
